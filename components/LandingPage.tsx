@@ -638,24 +638,26 @@ export const LandingPage: React.FC = () => {
                     )}
 
                     {/* Mobile Navigation (Bottom Bar) */}
-                    <div className="md:hidden flex justify-around items-center bg-[#1e293b] border-t border-slate-700 p-3 z-30 flex-shrink-0">
+                    <div className="md:hidden absolute bottom-0 left-0 right-0 bg-[#1e293b] border-t border-slate-700 px-6 py-2 flex justify-between items-center z-30">
                       <button
                         onClick={() => setActiveTab('orders')}
-                        className={`flex flex-col items-center gap-1 p-2 rounded-xl transition-all ${activeTab === 'orders' ? 'text-emerald-500 bg-emerald-500/10' : 'text-slate-400'}`}
+                        className={`flex flex-col items-center gap-1 ${activeTab === 'orders' ? 'text-emerald-500' : 'text-slate-400'}`}
                       >
                         <ShoppingCart size={20} />
                         <span className="text-[10px] font-medium">Pedidos</span>
                       </button>
+
                       <button
                         onClick={() => setActiveTab('customers')}
-                        className={`flex flex-col items-center gap-1 p-2 rounded-xl transition-all ${activeTab === 'customers' ? 'text-emerald-500 bg-emerald-500/10' : 'text-slate-400'}`}
+                        className={`flex flex-col items-center gap-1 ${activeTab === 'customers' ? 'text-emerald-500' : 'text-slate-400'}`}
                       >
                         <Users size={20} />
                         <span className="text-[10px] font-medium">Clientes</span>
                       </button>
+
                       <button
                         onClick={() => setActiveTab('analytics')}
-                        className={`flex flex-col items-center gap-1 p-2 rounded-xl transition-all ${activeTab === 'analytics' ? 'text-emerald-500 bg-emerald-500/10' : 'text-slate-400'}`}
+                        className={`flex flex-col items-center gap-1 ${activeTab === 'analytics' ? 'text-emerald-500' : 'text-slate-400'}`}
                       >
                         <BarChart3 size={20} />
                         <span className="text-[10px] font-medium">Analytics</span>
