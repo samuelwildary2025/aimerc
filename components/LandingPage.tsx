@@ -248,7 +248,7 @@ export const LandingPage: React.FC = () => {
                   </div>
 
                   {/* Main Content Area */}
-                  <div className="flex-1 flex flex-col min-w-0 bg-[#0f172a] h-full overflow-hidden">
+                  <div className="flex-1 flex flex-col min-w-0 bg-[#0f172a] h-full overflow-hidden relative">
 
                     {/* VIEW: ORDERS */}
                     {activeTab === 'orders' && (
@@ -272,7 +272,7 @@ export const LandingPage: React.FC = () => {
                         </div>
 
                         {/* Dashboard Content */}
-                        <div className="p-4 sm:p-8 overflow-y-auto custom-scrollbar flex-1">
+                        <div className="p-4 sm:p-8 overflow-y-auto custom-scrollbar flex-1 pb-20 md:pb-8">
                           {/* Stats Row */}
                           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-8">
                             {/* Card 1 */}
@@ -428,7 +428,7 @@ export const LandingPage: React.FC = () => {
                           </div>
                         </div>
 
-                        <div className="p-4 sm:p-8 overflow-y-auto custom-scrollbar flex-1">
+                        <div className="p-4 sm:p-8 overflow-y-auto custom-scrollbar flex-1 pb-20 md:pb-8">
                           <div className="bg-[#1e293b] rounded-xl border border-slate-700 overflow-hidden shadow-lg">
                             <table className="w-full text-left">
                               <thead>
@@ -501,7 +501,7 @@ export const LandingPage: React.FC = () => {
                           </div>
                         </div>
 
-                        <div className="p-4 sm:p-8 overflow-y-auto custom-scrollbar flex-1">
+                        <div className="p-4 sm:p-8 overflow-y-auto custom-scrollbar flex-1 pb-20 md:pb-8">
                           {/* Date Filter */}
                           <div className="flex items-center gap-2 mb-6">
                             <div className="relative">
