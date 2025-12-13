@@ -198,9 +198,9 @@ export const LandingPage: React.FC = () => {
 
             {/* Hero Visual (Interactive Dashboard) */}
             <div className="w-full max-w-5xl mx-auto perspective-1000">
-              <div className="relative bg-[#1e293b] rounded-[2.5rem] shadow-2xl shadow-emerald-500/20 border-8 border-slate-800 p-2 transition-all duration-700 ease-out">
+              <div className="relative bg-black rounded-[2.5rem] shadow-2xl shadow-emerald-500/20 border-[6px] border-gray-900 p-3 transition-all duration-700 ease-out">
                 {/* iPad Camera / Sensor Area (Optional, implies top of device) */}
-                <div className="absolute top-0 left-1/2 -translate-x-1/2 h-4 w-32 bg-slate-800 rounded-b-xl z-20 hidden md:block"></div>
+                <div className="absolute top-0 left-1/2 -translate-x-1/2 h-4 w-32 bg-black rounded-b-xl z-20 hidden md:block"></div>
 
                 {/* Dashboard Interface */}
                 <div className="bg-[#0f172a] rounded-[2rem] h-[600px] overflow-hidden flex font-sans select-none relative transition-all duration-500 ring-1 ring-slate-700/50">
