@@ -508,7 +508,7 @@ export const LandingPage: React.FC = () => {
                           </div>
 
                           {/* KPI Cards */}
-                          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-8">
+                          <div className="grid grid-cols-1 sm:grid-cols-4 gap-4 mb-8">
                             <div className="bg-[#1e293b] p-5 rounded-xl border border-slate-700 relative overflow-hidden">
                               <div className="flex justify-between items-start mb-2">
                                 <span className="text-slate-400 text-xs font-medium">Total de Vendas</span>
@@ -543,9 +543,9 @@ export const LandingPage: React.FC = () => {
                           </div>
 
                           {/* Charts Row 1 */}
-                          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6 h-72">
+                          <div className="flex flex-col sm:grid sm:grid-cols-2 gap-6 mb-6">
                             {/* Bar Chart */}
-                            <div className="bg-[#1e293b] p-5 rounded-xl border border-slate-700 shadow-lg flex flex-col">
+                            <div className="bg-[#1e293b] p-5 rounded-xl border border-slate-700 shadow-lg flex flex-col h-80">
                               <h3 className="font-bold text-white text-sm mb-4">Vendas por Período</h3>
                               <div className="flex-1 w-full" style={{ minHeight: '200px' }}>
                                 <ResponsiveContainer width="100%" height="100%">
@@ -576,7 +576,7 @@ export const LandingPage: React.FC = () => {
                             </div>
 
                             {/* Pie Chart */}
-                            <div className="bg-[#1e293b] p-5 rounded-xl border border-slate-700 shadow-lg flex flex-col">
+                            <div className="bg-[#1e293b] p-5 rounded-xl border border-slate-700 shadow-lg flex flex-col h-80">
                               <h3 className="font-bold text-white text-sm mb-4">Status dos Pedidos</h3>
                               <div className="flex-1 w-full relative" style={{ minHeight: '200px' }}>
                                 <ResponsiveContainer width="100%" height="100%">
@@ -606,7 +606,7 @@ export const LandingPage: React.FC = () => {
                           </div>
 
                           {/* Charts Row 2 */}
-                          <div className="bg-[#1e293b] p-5 rounded-xl border border-slate-700 shadow-lg h-56 flex flex-col">
+                          <div className="bg-[#1e293b] p-5 rounded-xl border border-slate-700 shadow-lg h-80 flex flex-col">
                             <h3 className="font-bold text-white text-sm mb-4">Vendas dos Últimos 7 Dias</h3>
                             <div className="flex-1 w-full" style={{ minHeight: '150px' }}>
                               <ResponsiveContainer width="100%" height="100%">
