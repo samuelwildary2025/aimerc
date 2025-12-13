@@ -521,21 +521,21 @@ export const LandingPage: React.FC = () => {
                                 <span className="text-slate-400 text-xs font-medium">Total de Vendas</span>
                                 <DollarSign size={16} className="text-emerald-500" />
                               </div>
-                              <h3 className="text-2xl font-bold text-emerald-500">R$ 100.061,50</h3>
+                              <h3 className="text-xl font-bold text-emerald-500">R$ 100.061</h3>
                             </div>
                             <div className="bg-[#1e293b] p-5 rounded-xl border border-slate-700 relative overflow-hidden">
                               <div className="flex justify-between items-start mb-2">
                                 <span className="text-slate-400 text-xs font-medium">Total de Pedidos</span>
                                 <ShoppingBag size={16} className="text-blue-500" />
                               </div>
-                              <h3 className="text-2xl font-bold text-blue-500">1.150</h3>
+                              <h3 className="text-xl font-bold text-blue-500">1.150</h3>
                             </div>
                             <div className="bg-[#1e293b] p-5 rounded-xl border border-slate-700 relative overflow-hidden">
                               <div className="flex justify-between items-start mb-2">
                                 <span className="text-slate-400 text-xs font-medium">Ticket Médio</span>
                                 <TrendingUp size={16} className="text-purple-500" />
                               </div>
-                              <h3 className="text-2xl font-bold text-purple-500">R$ 87,01</h3>
+                              <h3 className="text-xl font-bold text-purple-500">R$ 87</h3>
                             </div>
                             <div className="bg-[#1e293b] p-5 rounded-xl border border-slate-700 relative overflow-hidden">
                               <div className="flex justify-between items-start mb-2">
@@ -543,7 +543,7 @@ export const LandingPage: React.FC = () => {
                                 <TrendingUp size={16} className="text-emerald-500" />
                               </div>
                               <div className="flex items-baseline gap-1">
-                                <h3 className="text-2xl font-bold text-emerald-500">+42.4</h3>
+                                <h3 className="text-xl font-bold text-emerald-500">+42.4</h3>
                                 <span className="text-slate-400 text-sm">%</span>
                               </div>
                             </div>
