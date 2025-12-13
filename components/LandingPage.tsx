@@ -197,20 +197,13 @@ export const LandingPage: React.FC = () => {
             </div>
 
             {/* Hero Visual (Interactive Dashboard) */}
-            <div className="w-full max-w-6xl mx-auto perspective-1000">
-              <div className="relative bg-slate-900 rounded-2xl shadow-2xl shadow-emerald-500/10 border border-slate-800 p-2 transition-all duration-700 ease-out">
-                {/* Fake Browser Header */}
-                <div className="h-8 bg-slate-800 rounded-t-xl border-b border-slate-700 flex items-center px-4 gap-2 mb-2">
-                  <div className="flex gap-1.5">
-                    <div className="w-3 h-3 rounded-full bg-red-400"></div>
-                    <div className="w-3 h-3 rounded-full bg-yellow-400"></div>
-                    <div className="w-3 h-3 rounded-full bg-emerald-400"></div>
-                  </div>
-                  <div className="flex-1 text-center text-xs text-slate-400 font-medium font-mono">app.aimerc.com.br</div>
-                </div>
+            <div className="w-full max-w-5xl mx-auto perspective-1000">
+              <div className="relative bg-[#1e293b] rounded-[2.5rem] shadow-2xl shadow-emerald-500/20 border-8 border-slate-800 p-2 transition-all duration-700 ease-out">
+                {/* iPad Camera / Sensor Area (Optional, implies top of device) */}
+                <div className="absolute top-0 left-1/2 -translate-x-1/2 h-4 w-32 bg-slate-800 rounded-b-xl z-20 hidden md:block"></div>
 
                 {/* Dashboard Interface */}
-                <div className="bg-[#0f172a] rounded-lg h-[600px] overflow-hidden flex font-sans select-none relative transition-all duration-500">
+                <div className="bg-[#0f172a] rounded-[2rem] h-[600px] overflow-hidden flex font-sans select-none relative transition-all duration-500 ring-1 ring-slate-700/50">
 
                   {/* SIDEBAR (Visible on Tablet and PC) */}
                   <div className="hidden md:flex w-64 bg-[#1e293b] border-r border-slate-700 flex-col p-4 gap-2 z-20 flex-shrink-0">
