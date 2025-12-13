@@ -206,9 +206,9 @@ export const LandingPage: React.FC = () => {
                 <div className="bg-[#0f172a] rounded-[2rem] h-[600px] overflow-hidden flex font-sans select-none relative transition-all duration-500 ring-1 ring-slate-700/50">
 
                   {/* SIDEBAR (Visible on Tablet and PC) */}
-                  <div className="hidden md:flex w-64 bg-[#1e293b] border-r border-slate-700 flex-col p-4 gap-2 z-20 flex-shrink-0">
+                  <div className="hidden md:flex w-52 bg-[#1e293b] border-r border-slate-700 flex-col p-4 gap-2 z-20 flex-shrink-0">
                     <div className="flex items-center gap-1 px-2 mb-8">
-                      <img src="/logo2.png" alt="Aimerc" style={{ height: '60px', width: 'auto' }} />
+                      <img src="/logo2.png" alt="Aimerc" style={{ height: '40px', width: 'auto' }} />
                     </div>
 
                     <div className="space-y-1">
