@@ -846,47 +846,19 @@ export const LandingPage: React.FC = () => {
       </section>
 
       {/* Footer Links */}
-      <footer className="bg-white text-gray-500 py-12 border-t border-gray-200">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-4 gap-8">
-          <div className="space-y-4">
-            <div className="flex items-center gap-1">
-              {/* Footer Logo */}
-              <img src="/logo.png" alt="Aimerc" style={{ height: '120px', width: 'auto' }} />
-            </div>
-            <p className="text-sm">
-              Tecnologia inteligente para o varejo alimentar.
-            </p>
+      {/* Footer Links */}
+      <footer className="bg-white py-12 border-t border-gray-100">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-6">
+          <div className="flex items-center gap-2">
+            <img src="/logo.png" alt="Aimerc" style={{ height: '40px', width: 'auto' }} />
+            <span className="text-sm text-gray-500">Tecnologia para supermercados</span>
           </div>
 
-          <div>
-            <h4 className="font-bold text-slate-900 mb-4">Produto</h4>
-            <ul className="space-y-2 text-sm">
-              <li><a href="#features" className="hover:text-emerald-600">Funcionalidades</a></li>
-              <li><a href="#pricing" className="hover:text-emerald-600">Preços</a></li>
-              <li><a href="#" className="hover:text-emerald-600">API</a></li>
-            </ul>
+          <div className="flex items-center gap-8 text-sm text-gray-500">
+            <span>&copy; 2025 Aimerc</span>
+            <a href="#" className="hover:text-emerald-600 transition-colors">Privacidade</a>
+            <a href="#" className="hover:text-emerald-600 transition-colors">Termos</a>
           </div>
-
-          <div>
-            <h4 className="font-bold text-slate-900 mb-4">Empresa</h4>
-            <ul className="space-y-2 text-sm">
-              <li><a href="#" className="hover:text-emerald-600">Sobre nós</a></li>
-              <li><a href="#" className="hover:text-emerald-600">Blog</a></li>
-              <li><a href="#" className="hover:text-emerald-600">Contato</a></li>
-            </ul>
-          </div>
-
-          <div>
-            <h4 className="font-bold text-slate-900 mb-4">Suporte</h4>
-            <ul className="space-y-2 text-sm">
-              <li><a href="#" className="hover:text-emerald-600">Central de Ajuda</a></li>
-              <li><a href="#" className="hover:text-emerald-600">Status</a></li>
-              <li><a href="#" className="hover:text-emerald-600">Termos & Privacidade</a></li>
-            </ul>
-          </div>
-        </div>
-        <div className="max-w-7xl mx-auto px-4 mt-12 pt-8 border-t border-gray-100 text-center text-sm">
-          &copy; 2025 Aimerc Tecnologia. Todos os direitos reservados.
         </div>
       </footer>
     </div>
