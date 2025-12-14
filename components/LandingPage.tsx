@@ -56,7 +56,7 @@ export const LandingPage: React.FC = () => {
     "Atacadão do Centro",
     "Rede Mais Você",
 
-    "Hipermercado Estrela"
+    "Supermercado PH"
   ];
 
   // Data for Customers View Simulation
