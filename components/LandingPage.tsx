@@ -166,7 +166,7 @@ export const LandingPage: React.FC = () => {
               </h1>
 
               <p className="text-lg text-gray-600 leading-relaxed max-w-2xl mx-auto">
-                Gerencie suas vendas de ponta a ponta com <b>CRM inteligente</b>, automação de pedidos e insights em tempo real. Tudo em uma única plataforma feita para supermercados.
+                Nossa <b>Inteligência Artificial</b> conecta diretamente no seu WhatsApp, assume as vendas e te entrega um relatório completo no dashboard: pedidos, clientes com rank LTV e analytics detalhado.
               </p>
 
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-2">
