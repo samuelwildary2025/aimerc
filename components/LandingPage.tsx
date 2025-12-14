@@ -161,8 +161,8 @@ export const LandingPage: React.FC = () => {
               </div>
 
               <h1 className="text-5xl lg:text-6xl font-bold tracking-tight text-gray-900 leading-[1.1]">
-                Aumente suas Vendas com <br />
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-500 to-cyan-500">Inteligência Artificial</span>
+                Aumente as Vendas do seu <br />
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-500 to-cyan-500">Supermercado</span>
               </h1>
 
               <p className="text-lg text-gray-600 leading-relaxed max-w-2xl mx-auto">
