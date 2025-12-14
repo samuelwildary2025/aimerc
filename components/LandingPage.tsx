@@ -161,12 +161,12 @@ export const LandingPage: React.FC = () => {
               </div>
 
               <h1 className="text-5xl lg:text-6xl font-bold tracking-tight text-gray-900 leading-[1.1]">
-                Gestão Inteligente de Vendas <br />
-                para <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-500 to-cyan-500">Supermercados</span>
+                Aumente suas Vendas com <br />
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-500 to-cyan-500">Inteligência Artificial</span>
               </h1>
 
               <p className="text-lg text-gray-600 leading-relaxed max-w-2xl mx-auto">
-                Nossa IA conecta ao seu WhatsApp e assume as vendas automaticamente. Tenha controle total no dashboard com relatórios completos: acompanhe pedidos, ranking de LTV de clientes e analytics detalhados em tempo real.
+                <b>Conecte no seu WhatsApp e dobre seu faturamento.</b> Nossa IA assume o atendimento automaticamente e te entrega visão total no dashboard: pedidos, ranking de LTV e analytics em tempo real.
               </p>
 
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-2">
