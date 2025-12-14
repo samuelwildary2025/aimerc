@@ -51,14 +51,10 @@ export const LandingPage: React.FC = () => {
   const [activeTab, setActiveTab] = useState<'orders' | 'customers' | 'analytics'>('analytics'); // Default to analytics to show the change
 
   const supermarkets = [
-    "Supermercado Bom Preço",
-    "Mercadinho da Esquina",
-    "Hortifruti Vida Saudável",
+    "Supermercado Queiroz",
     "Empório Brasil",
     "Atacadão do Centro",
     "Rede Mais Você",
-    "Super Compras",
-    "Mercado Novo Dia",
     "Sacolão da Família",
     "Hipermercado Estrela"
   ];
@@ -669,7 +665,7 @@ export const LandingPage: React.FC = () => {
         <div className="w-full overflow-hidden">
           <div className="text-center mb-8">
             <p className="text-sm font-bold text-gray-400 uppercase tracking-widest">
-              Parceiro oficial de centenas de mercados pelo Brasil
+              Parceiro Oficial de Grandes Mercados
             </p>
           </div>
 
