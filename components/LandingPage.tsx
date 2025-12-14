@@ -166,7 +166,7 @@ export const LandingPage: React.FC = () => {
               </h1>
 
               <p className="text-lg text-gray-600 leading-relaxed max-w-2xl mx-auto">
-                Nossa <b>Inteligência Artificial</b> conecta diretamente no seu WhatsApp, assume as vendas e te entrega um relatório completo no dashboard: pedidos, clientes com rank LTV e analytics detalhado.
+                Nossa IA conecta ao seu WhatsApp e assume as vendas automaticamente. Tenha controle total no dashboard com relatórios completos: acompanhe pedidos, ranking de LTV de clientes e analytics detalhados em tempo real.
               </p>
 
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-2">
