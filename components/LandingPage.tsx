@@ -55,7 +55,7 @@ export const LandingPage: React.FC = () => {
     "Empório Brasil",
     "Atacadão do Centro",
     "Rede Mais Você",
-    "Sacolão da Família",
+
     "Hipermercado Estrela"
   ];
 
